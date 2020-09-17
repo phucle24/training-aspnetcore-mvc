@@ -1,0 +1,36 @@
+﻿@model FirstProject.Models.LoginViewModel
+@{ ViewData["Title"] = "Login";
+}
+@section Scripts{
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
+<div class="row">
+    <div class="col-md-6 offser-md-3">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly"></div>
+            <div class="form-group">
+                <label asp-for="UserName">UserName</label>
+                <input type="text" name="UserName" value="" class="form-control" />
+                <span asp-validation-for="UserName" class="text-warning"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password">Password</label>
+                <input type="password" name="Password" value="" class="form-control" />
+                <span asp-validation-for="Password" class="text-warning"></span>
+            </div>
+
+            <div class="form-group">
+                <div class="form-check">
+                    <label asp-for="RememberMe" class="form-check-label">RememberMe</label>
+                    <input type="checkbox" name="RememberMe" value="" class="form-check-input" />
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-success" />
+            </div>
+
+        </form>
+
+    </div>
+</div>

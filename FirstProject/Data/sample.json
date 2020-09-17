@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 1,
+    "category": "Brown eggs",
+    "price": 281,
+  },
+  {
+    "Id": 3,
+    "category": "Brown eggs",
+    "price": 281
+  },
+  {
+    "Id": 2,
+    "category": "Brown eggs",
+    "price": 281
+  },
+  {
+    "Id": 4,
+    "category": "Brown eggs",
+    "price": 281
+  }
+]

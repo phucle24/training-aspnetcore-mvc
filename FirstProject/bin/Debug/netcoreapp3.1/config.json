@@ -1,0 +1,10 @@
+{
+  "ConnectionString": {
+    "FirstConnectionString": "server=(localdb)\\Projects13;Database=FirstShopDb;Integrated Security=true;"
+  },
+  "Tokens": {
+    "Key": "sasas;asasgghghghghs;s;sa;s",
+    "Isuer": "localhost",
+    "Audience": 
+  }
+}
